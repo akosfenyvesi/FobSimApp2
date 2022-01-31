@@ -55,3 +55,26 @@ IMPORTANT NOTE: Published code should be considered copyrighted whether or not i
 2- Proof-of-Stake (PoS)
 
 3- Proof-of-Authority (PoA)
+
+
+
+# Installation:
+Dependencies (you may be informed when you run the tool that other libraries need to be installed. Please do that depending on your OS):
+-- Git
+-- hashlib
+-- json
+-- random
+-- time
+-- multiprocessing
+-- math
+-- shutil
+-- pandas
+
+STEPS:
+1- clone this repository to your machine. You need Python 3.X installed 
+2- navigate to the new Fobsim directory just created
+3- modify the json file: Sim_parameters.json according to the scenario to be simulated. Please refer to the published paper indicated above for details regarding the simulation parameterization. Make sure to save the file after modifying it.
+3- run the following command: python3 main.py
+4- follow the instructions
+5- check the provided analysis at the end of the simulation run
+6- check the temporary files created in the 'Fobsim/temporary' folder
