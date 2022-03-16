@@ -154,4 +154,3 @@ def finish():
     print("- log of final amounts in miners' wallets (initial values - staked values + awards)")
     print("- log of values which were staked by miners")
     print("thank YOU..!")
-
